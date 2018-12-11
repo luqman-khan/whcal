@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["contact.luqman.khan@gmail.com"]
 
   spec.summary       = %q{Thes gem calculate the difference between two date time values. The output depends on the input given.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/luqman-khan/whcal"
   spec.license       = "MIT"
 
  
