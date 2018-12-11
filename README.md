@@ -23,13 +23,12 @@ Or install it yourself as:
 ```ruby
 	include 'Whcal'
 
-	
-	diff_month(DateTime.now.next_year, Time.now+3600) # 12.065277777777778
-	diff_second(Date.today, Date.today+5) # 432000.0
 	diff_year(DateTime.now.next_year, DateTime.now) # 1.0
+	diff_month(DateTime.now.next_year, Time.now+3600) # 12.065277777777778
 	diff_day(Date.today+20, Date.today) #20.0
 	diff_hour(DateTime.now.next_month, Date.today) # 744.0
 	diff_minute(Time.now+60000, Date.today) #1440.0
+	diff_second(Date.today, Date.today+5) # 432000.0
 
 ```
 
